@@ -8,32 +8,32 @@
     <properties/>
     <border type="none"/>
     <children>
-      <component id="aef84" class="javax.swing.JLabel" binding="l1">
+      <component id="aef84" class="javax.swing.JLabel" binding="loanBalenceLabel">
         <constraints>
           <grid row="0" column="0" row-span="2" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-13817298"/>
-          <font name="Bookman Old Style" size="16" style="3"/>
+          <font name="Arial" size="16" style="0"/>
           <text value=" Loan Balence"/>
         </properties>
       </component>
-      <component id="ba352" class="javax.swing.JLabel" binding="l2">
+      <component id="ba352" class="javax.swing.JLabel" binding="intrestRateLabel">
         <constraints>
           <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bookman Old Style" size="16" style="3"/>
+          <font name="Arial" size="16" style="0"/>
           <text value=" Intrest Rate"/>
         </properties>
       </component>
-      <component id="ca5dd" class="javax.swing.JLabel" binding="l3">
+      <component id="ca5dd" class="javax.swing.JLabel" binding="numberOfPaymentsLabel">
         <constraints>
           <grid row="3" column="0" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <enabled value="true"/>
-          <font name="Bookman Old Style" size="16" style="3"/>
+          <font name="Arial" size="16" style="0"/>
           <text value=" Number of Payments"/>
         </properties>
       </component>
@@ -44,6 +44,7 @@
           </grid>
         </constraints>
         <properties>
+          <font name="Arial" size="16" style="0"/>
           <text value=""/>
         </properties>
       </component>
@@ -54,6 +55,7 @@
           </grid>
         </constraints>
         <properties>
+          <font name="Arial" size="16" style="0"/>
           <text value=""/>
         </properties>
       </component>
@@ -64,6 +66,7 @@
           </grid>
         </constraints>
         <properties>
+          <font name="Arial" size="16" style="0"/>
           <text value=""/>
         </properties>
       </component>
@@ -88,7 +91,7 @@
           <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bookman Old Style" size="18" style="2"/>
+          <font name="Arial" size="16" style="0"/>
           <text value="Compute Monthly Payments"/>
         </properties>
       </component>
@@ -97,20 +100,20 @@
           <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bookman Old Style" size="18" style="2"/>
+          <font name="Arial" size="16" style="0"/>
           <text value="New Loan Analysis"/>
         </properties>
       </component>
-      <component id="24d67" class="javax.swing.JLabel">
+      <component id="24d67" class="javax.swing.JLabel" binding="loanAnalysisLabel">
         <constraints>
           <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bookman Old Style" size="16" style="3"/>
+          <font name="Arial" size="16" style="0"/>
           <text value="Loan Analysis"/>
         </properties>
       </component>
-      <component id="ac748" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+      <component id="ac748" class="javax.swing.JTextArea" binding="Analysis">
         <constraints>
           <grid row="1" column="3" row-span="7" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
@@ -120,12 +123,12 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="ed4b1" class="javax.swing.JLabel" binding="l4">
+      <component id="ed4b1" class="javax.swing.JLabel" binding="monthlyPaymentsLabel">
         <constraints>
           <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bookman Old Style" size="16" style="3"/>
+          <font name="Arial" size="16" style="0"/>
           <text value=" Monthly Payments"/>
         </properties>
       </component>
@@ -135,14 +138,16 @@
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <font name="Arial" size="16" style="0"/>
+        </properties>
       </component>
       <component id="1a045" class="javax.swing.JButton" binding="exitButton" default-binding="true">
         <constraints>
           <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Bookman Old Style" size="20" style="3"/>
+          <font name="Arial" size="16" style="0"/>
           <text value="Exit"/>
         </properties>
       </component>
